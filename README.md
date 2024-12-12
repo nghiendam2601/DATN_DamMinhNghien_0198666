@@ -11,7 +11,7 @@ Movie In Minutes is an iOS app designed to provide users with quick movie summar
 ### Key Features
 
 - **Movie and TV Show Reviews:** Read detailed reviews and ratings for movies and TV shows.
-- **Personalized Watchlist:** Create and manage your own watchlist by adding your favorite movies and TV shows.
+- **Personalized Watchlist:** Create and manage your own watchlist by adding your favorite movies.
 - **Advanced Search:** Easily search for famous actors, movies, and TV shows.
 - **Trending Topics:** Explore trending movies and popular topics of interest.
 - **Watch in Minutes:** Get concise summaries/reviews of Movies/ TV series in minutes.
