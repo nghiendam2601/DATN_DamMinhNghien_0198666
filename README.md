@@ -1,10 +1,10 @@
-# MovieInMinutues
+# MovieInMinutes
 
 MovieInMinutes is an iOS app designed to provide users with quick movie summaries and detailed reviews, making it easy to pick your favorite films in just minutes.
 
 
 
-![1024](https://github.com/user-attachments/assets/772e613c-3340-4237-a5db-d5fdd7fdca36)
+<img src="https://github.com/user-attachments/assets/772e613c-3340-4237-a5db-d5fdd7fdca36" alt="Logo" width="80" height="80">
 
 
 
@@ -14,10 +14,10 @@ MovieInMinutes is an iOS app designed to provide users with quick movie summarie
 - **Personalized Watchlist:** Create and manage your own watchlist by adding your favorite movies and TV shows.
 - **Advanced Search:** Easily search for famous actors, movies, and TV shows.
 - **Trending Topics:** Explore trending movies and popular topics of interest.
-- **Quick Summaries:** Get concise summaries to quickly decide which movies or shows to watch.
-- **Customizable Modes:** witch between Light and Dark mode or follow the system’s default color mode.
+- **Watch in Minutes:** Get concise summaries/reviews of Movies/ TV series in minutes.
+- **Customizable Modes:** switch between Light and Dark mode or follow the system’s default color mode.
 - **Language Options:** Seamlessly switch between English and Vietnamese for a personalized experience.
-- 
+
 ### Technologies Used
 
 - UIKit
