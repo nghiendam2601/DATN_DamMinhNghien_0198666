@@ -1,0 +1,39 @@
+PODS:
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - Pageboy (4.2.0)
+  - PullToRefreshKit (0.8.8)
+  - RatingStar (0.2.2)
+  - SwipeCellKit (2.7.1)
+  - Tabman (3.2.0):
+    - Pageboy (~> 4.2.0)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView
+  - Pageboy (~> 4.2)
+  - PullToRefreshKit
+  - RatingStar
+  - SwipeCellKit
+  - Tabman (~> 3.2)
+
+SPEC REPOS:
+  trunk:
+    - NVActivityIndicatorView
+    - Pageboy
+    - PullToRefreshKit
+    - RatingStar
+    - SwipeCellKit
+    - Tabman
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  Pageboy: 7f7886f61c76633df635861bf7839caf2cabdb3e
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  RatingStar: fd5f9adb0006c6e3ec8a43e7b64bd7dc6cff113c
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  Tabman: 49f9181a2bfe5c29d002864dac2de8e0b7ea9180
+
+PODFILE CHECKSUM: afb327d6e909bac27cd4a4bead5d11e0b51a3bf3
+
+COCOAPODS: 1.16.2

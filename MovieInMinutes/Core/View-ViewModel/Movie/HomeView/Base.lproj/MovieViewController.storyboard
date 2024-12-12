@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SIF-84-GL3">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movies-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MovieViewController" id="BYZ-38-t0r" customClass="MovieViewController" customModule="MovieInMinutes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zPy-Qj-cva">
+                                <rect key="frame" x="0.0" y="94" width="375" height="684"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="pyh-CR-diC"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JRK-Y4-qh4"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="zPy-Qj-cva" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3tv-Hy-kZQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zPy-Qj-cva" secondAttribute="bottom" id="8J6-GA-FMf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zPy-Qj-cva" secondAttribute="trailing" id="HaV-JV-gM9"/>
+                            <constraint firstItem="zPy-Qj-cva" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jJj-Sz-obp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Movies" selectedImage="movieclapper.fill" catalog="system" id="z9L-F3-jHB">
+                        <color key="badgeColor" name="Label"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="q60-tx-UVT"/>
+                    <connections>
+                        <outlet property="tableView" destination="zPy-Qj-cva" id="Nls-Ji-Nj5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="-2.2167487684729066"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Idz-HM-1zD">
+            <objects>
+                <tabBarController storyboardIdentifier="TabbarController" id="SIF-84-GL3" customClass="TabBarController" customModule="MovieInMinutes" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DYJ-8g-Vgb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="tabbar" destination="DYJ-8g-Vgb" id="xso-76-bvs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOk-GW-v0s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1154" y="-2"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="rZS-08-915">
+            <objects>
+                <navigationController storyboardIdentifier="NavMovieViewController" automaticallyAdjustsScrollViewInsets="NO" id="C4L-Lr-h0U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="movieclapper.fill" catalog="system" id="O2T-1X-ZxH">
+                        <color key="badgeColor" name="Label"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Tj-M6-Get">
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="LabelApp"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sIK-kw-E1c">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XhF-Gx-XkB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaJ-Cy-zVM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45.600000000000001" y="-2.2167487684729066"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movieclapper.fill" catalog="system" width="128" height="113"/>
+        <namedColor name="Background">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Label">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LabelApp">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

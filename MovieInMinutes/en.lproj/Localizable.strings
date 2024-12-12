@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  MovieInMinutes
+
+  Created by NghienDamMinh on 19/11/24.
+  
+*/
+"login" = "Login";
+"logout" = "Logout";
+"sign_up" = "Sign Up";
+"guest" = "Continue as Guest";
+"loginSuggest" = "Please log in to access additional features!";
+"light" = "Current mode: Light";
+"dark" = "Current mode: Dark";
+"current_language" = "Current language: English";
+"my_profile" = "Personal Information";
+"movies" = "Movies";
+"tvseries" = "TV Series";
+"search" = "Search";
+"personal" = "Personal";
+"now_playing" = "Now Playing";
+"popular" = "Popular";
+"top_rated" = "Top Rated";
+"up_coming" = "Upcoming";
+"airing_today" = "Airing Today";
+"on_the_air" = "On the Air";
+"my_rated" = "My Rated";
+"rating_this" = "Rate This";
+"ok" = "OK";
+"cancel" = "Cancel";
+"search_here" = "Search Here";
+"suggest_search" = "Enter the search box";
+"no_data" = "No results found.";
+"ask_delete_rated" = "Do you want to delete your rating?";
+"ask_rated" = "Are you sure to rating with this score?";
+"see_all" = "See All";
+"add_to_list" = "Add to List";
+"overview" = "Overview";
+"cast" = "Cast";
+"official_trailer" = "Official Trailer";
+"seasons" = "Seasons";
+"information" = "Information";
+"watch_review" = "Watch Movie Review";
+"watch_now" = "Watch Now";
+"my_collection" = "My Collection";
+"create_list" = "Create List";
+"list_name" = "List Name:";
+"list_des" = "Description:";
+"input_list_name" = "Input List Name";
+"input_list_des" = "Input Description";
+"my_rating" = "My rating";
+"my_rated_movies" = "My Rated Movies";
+"my_rated_tv" = "My Rated TV Series";
+"episodes" = "Episodes";
+"genres" = "Genres";
+"status" = "Status";
+"run_time" = "Runtime";
+"original_name" = "Original Name";
+"adult" = "Adult";
+"budget" = "Budget";
+"revenue" = "Revenue";
+"number_of_episodes" = "Number of Episodes";
+"type" = "Type";
+"air_date" = "Air Date";
+"season" = "Season";
+"vote_avarage" = "Vote Average";
+"vote_count" = "Vote Count";
+"number_of_seasons" = "Number of seasons";
+"review_movie" = "Review movie";
+"please_login_again" = "Please login again!";
+"error" = "Error";
+"add_success" = "Add success";
+"movie_already_added" = "Movie has been added to your list already.";
+"failed_create_request_token" = "Failed to create request token";
+"clear_list_confirmation" = "Do you really want to clear this list?";
+"name_required" = "Name is required";
+"invalid_url" = "Invalid URL.";
+"network_error" = "Check internet connection.";
+"json_error" = "JSON Error.";
+"response_error" = "Response Error.";
+"invalid_data" = "Invalid data.";
+"no_data" = "No data available.";
+"unknown_error" = "An unknown error has occurred.";
+"login_to_use" = "Please login to use this feature!";
+"suggest_watch_review" = "You need to login to watch review";
+"item_movie" = "movies";
+"delete" = "Delete";
+"birth_day" = "Birthday";
+"death_day" = "Deathday";
+"known_for" = "Known for";
+"place_of_birth" = "Place of birth";
+"biography" = "Biography";
+"no_data" = "No data available.";
+"like" = "Like";
+"view" = "View";
+"person" = "Person";
+

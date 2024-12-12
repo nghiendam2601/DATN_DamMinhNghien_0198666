@@ -1,0 +1,6 @@
+framework module RatingStar {
+  umbrella header "RatingStar-umbrella.h"
+
+  export *
+  module * { export * }
+}

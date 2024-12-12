@@ -1,0 +1,141 @@
+{
+  "originHash" : "266f5e881055da161179fbc7e4108a9e41e5bf5df989abbf89ccd437bc4a45c8",
+  "pins" : [
+    {
+      "identity" : "iqkeyboardcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardCore.git",
+      "state" : {
+        "revision" : "ae9d197f1d8c491b312e30eafb0193d164519c5a",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "revision" : "42e0d94355eba5448fd250f7229d150d268dc3ab",
+        "version" : "8.0.0"
+      }
+    },
+    {
+      "identity" : "iqkeyboardnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardNotification.git",
+      "state" : {
+        "revision" : "25c6a83380042141d9a2f80cdb2832595a7bf6bc",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "iqkeyboardreturnmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardReturnManager.git",
+      "state" : {
+        "revision" : "bc5c272e4d37cc217a3d10d052557a1916c09cf9",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "iqkeyboardtoolbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardToolbar.git",
+      "state" : {
+        "revision" : "78ccb63857a03334ecfcba566f8f504015965ee3",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "iqkeyboardtoolbarmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardToolbarManager.git",
+      "state" : {
+        "revision" : "298c128c8f58776bb72de7b0259c9a5b9b157d61",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "iqtextinputviewnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQTextInputViewNotification.git",
+      "state" : {
+        "revision" : "4347f8eb6bf8880014606684105e447229cc29ea",
+        "version" : "1.0.8"
+      }
+    },
+    {
+      "identity" : "iqtextview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQTextView.git",
+      "state" : {
+        "revision" : "76f514eba5218bdf67659168ba227c77da5f75fe",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "c0940e241945e6378c01fbd45fd3815579d47ef5",
+        "version" : "8.1.0"
+      }
+    },
+    {
+      "identity" : "nvactivityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+      "state" : {
+        "revision" : "121455c4e630fcb95aaefd7e4257b0c2e3cfe6d5",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "reachability.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ashleymills/Reachability.swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "21d1dc412cfecbe6e34f1f4c4eb88d3f912654a6"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "85eeca41654cc9070ad81a21a4b1d153ad467c33",
+        "version" : "14.13.1"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5553cfd1c789efdb3d6daf7f0cc0733cfe601846"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "youtube-ios-player-helper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/youtube/youtube-ios-player-helper.git",
+      "state" : {
+        "revision" : "f57129cd4380ec0a74dd3a59da3270a1d653d59b",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}

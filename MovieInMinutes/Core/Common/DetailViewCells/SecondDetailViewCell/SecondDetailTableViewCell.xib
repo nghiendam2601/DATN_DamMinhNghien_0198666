@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SecondDetailTableViewCell" id="KGk-i7-Jjw" customClass="SecondDetailTableViewCell" customModule="MovieInMinutes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E97-i6-YXY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jgZ-rs-2ST">
+                                <rect key="frame" x="8" y="0.0" width="359" height="190"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="evX-DK-Kgl">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="0SB-6u-6rS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" name="LabelApp"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="gOq-pu-e0L">
+                                        <rect key="frame" x="0.0" y="43" width="359" height="147"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="jgZ-rs-2ST" secondAttribute="bottom" constant="10" id="6Gc-2H-BfA"/>
+                            <constraint firstAttribute="trailing" secondItem="jgZ-rs-2ST" secondAttribute="trailing" constant="8" id="HUN-5i-aIz"/>
+                            <constraint firstItem="jgZ-rs-2ST" firstAttribute="top" secondItem="E97-i6-YXY" secondAttribute="top" id="pvg-OC-Yhn"/>
+                            <constraint firstItem="jgZ-rs-2ST" firstAttribute="leading" secondItem="E97-i6-YXY" secondAttribute="leading" constant="8" id="yTP-xp-GjZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="E97-i6-YXY" secondAttribute="trailing" id="9gF-fj-DkH"/>
+                    <constraint firstAttribute="bottom" secondItem="E97-i6-YXY" secondAttribute="bottom" id="NRe-m1-pUu"/>
+                    <constraint firstItem="E97-i6-YXY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mNe-zN-kSc"/>
+                    <constraint firstItem="E97-i6-YXY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wsH-MC-mbb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="overViewLabel" destination="gOq-pu-e0L" id="6ks-F6-HA4"/>
+                <outlet property="overViewTitle" destination="evX-DK-Kgl" id="LVc-7b-JFf"/>
+            </connections>
+            <point key="canvasLocation" x="49.618320610687022" y="0.0"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="LabelApp">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
