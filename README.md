@@ -1,6 +1,6 @@
 # Movie In Minutes
 
-Movie In Minutes is an iOS app designed to provide users with quick movie summaries and detailed reviews, making it easy to pick your favorite films in just minutes.
+Movie In Minutes is an iOS app designed to provide users with quick movie summaries and detailed reviews in just minutes.
 
 
 
