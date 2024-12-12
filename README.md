@@ -35,7 +35,7 @@ Movie In Minutes is an iOS app designed to provide users with quick movie summar
 3. Create an account on YouTube and get a valid API key.
   - Refer to this link: https://www.magetop.com/blog/cach-lay-api-key-youtube/
 4. Clone source code to Xcode project.
-5. Replace the API Keys with your valid API keys in **Constant.Swift** file.
+5. Replace the API Keys with your valid API keys in **Constants.Swift** file.
 6. Select folder -> open with terminal -> input **pod install** and click run to initialize pod files.
 6. Build and run the app on your iOS device or simulator.
 
