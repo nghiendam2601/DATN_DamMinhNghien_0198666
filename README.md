@@ -4,7 +4,9 @@
 <img src="https://github.com/user-attachments/assets/772e613c-3340-4237-a5db-d5fdd7fdca36" alt="Logo" width="80" height="80">
 
 
+
 Movie In Minutes is an iOS app designed to provide users with quick movie summaries and detailed reviews in just minutes.
+
 ![Image](https://github.com/user-attachments/assets/fac91583-832d-4610-8642-cbfb4fcb874e)
 
 ### Key Features
