@@ -8,8 +8,8 @@
 import Foundation
 
 struct ScriptConstants {
-    static var ApiKey = "" //Your API Key.
-    static var YtbApiKey = "" //Your API Key.
+    static var ApiKey = "ce502d0dd39eee830a39234b36c568b8"
+    static var YtbApiKey = "AIzaSyAR3aPb7vqpB7L3D7L3_tUeWk4ZtKq-Ujk"
     static var imageUrlW500 = "https://image.tmdb.org/t/p/w500"
     static var imageUrlW1280 = "https://image.tmdb.org/t/p/w1280"
 }
